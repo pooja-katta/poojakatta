@@ -1,0 +1,213 @@
+# Created at 2023-09-04T04:39:42.787
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2023-09-04T04:39:59.478
+Unexpected IOException with stream: 2023-09-04 04:39:59.382  INFO 756 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2023-09-04T04:39:59.479
+Unexpected IOException with stream: 2023-09-04 04:39:59.478  INFO 756 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2023-09-04T04:39:59.481
+Unexpected IOException with stream: 2023-09-04 04:39:59.481  INFO 756 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+
+
+# Created at 2023-09-04T04:40:00.279
+Unexpected IOException with stream: 2023-09-04 04:40:00.278  INFO 756 --- [           main] c.example.player.PlayerControllerTests   : Started PlayerControllerTests in 94.306 seconds (JVM running for 148.088)
+
+
+# Created at 2023-09-04T04:40:00.785
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testgetPlayers,null,null,null
+
+
+# Created at 2023-09-04T04:40:11.790
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testgetPlayers,null,null,null
+
+
+# Created at 2023-09-04T04:40:11.790
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testgetNotFound,null,null,null
+
+
+# Created at 2023-09-04T04:40:12.587
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testgetNotFound,null,null,null
+
+
+# Created at 2023-09-04T04:40:12.589
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testgetPlayerById,null,null,null
+
+
+# Created at 2023-09-04T04:40:13.181
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testgetPlayerById,null,null,null
+
+
+# Created at 2023-09-04T04:40:13.182
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testpost,null,null,null
+
+
+# Created at 2023-09-04T04:40:14.284
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testpost,null,null,null
+
+
+# Created at 2023-09-04T04:40:14.285
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testafterpost,null,null,null
+
+
+# Created at 2023-09-04T04:40:14.778
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testafterpost,null,null,null
+
+
+# Created at 2023-09-04T04:40:14.782
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testDbAfterPost,null,null,null
+
+
+# Created at 2023-09-04T04:40:14.981
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testDbAfterPost,null,null,null
+
+
+# Created at 2023-09-04T04:40:15.078
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testputNotFound,null,null,null
+
+
+# Created at 2023-09-04T04:40:15.388
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testputNotFound,null,null,null
+
+
+# Created at 2023-09-04T04:40:15.482
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testput,null,null,null
+
+
+# Created at 2023-09-04T04:40:15.781
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testput,null,null,null
+
+
+# Created at 2023-09-04T04:40:15.789
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testafterput,null,null,null
+
+
+# Created at 2023-09-04T04:40:15.987
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testafterput,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.087
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testDbAfterPut,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.092
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testDbAfterPut,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.093
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testdeleteNotFound,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.288
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testdeleteNotFound,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.386
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testdelete,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.584
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testdelete,null,null,null
+
+
+# Created at 2023-09-04T04:40:16.587
+Unexpected IOException: 5,1,com.example.player.PlayerControllerTests,testafterdelete,null,null,null
+
+
+# Created at 2023-09-04T04:40:17.183
+Unexpected IOException: 6,1,com.example.player.PlayerControllerTests,testafterdelete,null,null,null
+
+
+# Created at 2023-09-04T04:40:17.287
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.player.PlayerControllerTests,null,null,null
+
+
+# Created at 2023-09-04T04:40:17.380
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.player.SmokeTest,null,null,null
+
+
+# Created at 2023-09-04T04:40:17.382
+Unexpected IOException with stream: 2023-09-04 04:40:17.382  INFO 756 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.player.SmokeTest], using SpringBootContextLoader
+
+
+# Created at 2023-09-04T04:40:17.385
+Unexpected IOException with stream: 2023-09-04 04:40:17.385  INFO 756 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.player.SmokeTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2023-09-04T04:40:17.480
+Unexpected IOException with stream: 2023-09-04 04:40:17.479  INFO 756 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.player.SmokeTest]: SmokeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2023-09-04T04:40:17.485
+Unexpected IOException with stream: 2023-09-04 04:40:17.484  INFO 756 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.player.PlayerApplication for test class com.example.player.SmokeTest
+
+
+# Created at 2023-09-04T04:40:17.489
+Unexpected IOException with stream: 2023-09-04 04:40:17.488  INFO 756 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+
+
+# Created at 2023-09-04T04:40:17.489
+Unexpected IOException with stream: 2023-09-04 04:40:17.489  INFO 756 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3cc3f13e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@69b3886f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@53d30d23, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44faa4f2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6793f752, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1216eb3f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@59e7564b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@482ba4b1, org.springframework.test.context.event.EventPublishingTestExecutionListener@307af381, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1510b9a2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76a6f045, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@633ddc0c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4bcdd11, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1471b98d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5514579e]
+
+
+# Created at 2023-09-04T04:40:17.890
+Unexpected IOException with stream: 
+
+
+# Created at 2023-09-04T04:40:17.891
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2023-09-04T04:40:17.891
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2023-09-04T04:40:17.891
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2023-09-04T04:40:17.891
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2023-09-04T04:40:17.891
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2023-09-04T04:40:17.891
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2023-09-04T04:40:17.892
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.8)
+
+
+# Created at 2023-09-04T04:40:17.892
+Unexpected IOException with stream: 
+
+
+# Created at 2023-09-04T04:40:17.978
+Unexpected IOException with stream: 2023-09-04 04:40:17.893  INFO 756 --- [           main] com.example.player.SmokeTest             : Starting SmokeTest using Java 1.8.0_342 on ip-10-2-42-84.ap-south-1.compute.internal with PID 756 (started by nxtwave in /home/nxtwave/player)
+
+
+# Created at 2023-09-04T04:40:17.979
+Unexpected IOException with stream: 2023-09-04 04:40:17.978  INFO 756 --- [           main] com.example.player.SmokeTest             : No active profile set, falling back to 1 default profile: "default"
+
+
+# Created at 2023-09-04T04:40:20.484
+Unexpected IOException with stream: 2023-09-04 04:40:20.483  INFO 756 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+
+
+# Created at 2023-09-04T04:40:20.487
+Unexpected IOException with stream: 2023-09-04 04:40:20.487  INFO 756 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+
+
